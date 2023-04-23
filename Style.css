@@ -1,8 +1,20 @@
 /*-------------------------------------Backgraund-------------------------------------------------------------*/
 body{
   background: rgb(61,155,209);
-background: linear-gradient(90deg, rgba(61,155,209,1) 0%, rgba(47,223,198,1) 100%);
+  background: linear-gradient(90deg, rgba(61,155,209,1) 0%, rgba(47,223,198,1) 100%);
 
+}
+.bg-logo {
+  background-image: url('img/Logo Kids Connect.png');
+  background-size: cover;  /*para que la imagen cubra todo el fondo */
+  opacity: 0.8; /*para hacer la imagen un poco transparente */
+
+}
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
@@ -10,17 +22,25 @@ background: linear-gradient(90deg, rgba(61,155,209,1) 0%, rgba(47,223,198,1) 100
 /*-------------------------------------NAVBAR-------------------------------------------------------------*/
 
 nav img {
+
     width: 50px;
     height: 50px;
   }
 
 nav {
     background: rgb(246,217,6);
-background: linear-gradient(90deg, rgba(246,217,6,1) 0%, rgba(223,152,31,1) 100%);
+    background: linear-gradient(90deg, rgba(246,217,6,1) 0%, rgba(223,152,31,1) 100%);
 }
 /*--------------------------------------------------------------------------------------------------*/
 
 /*----------------------LOGIN----------------------------------------------------------------------------*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: center; 
+  
+}
 
 .form-login {
     width: 400px;
@@ -87,9 +107,12 @@ background: linear-gradient(90deg, rgba(246,217,6,1) 0%, rgba(223,152,31,1) 100%
 }
 /*------------------------Footer--------------------------------------------------------------------------*/
 footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background: rgb(246,217,6);
   background: linear-gradient(90deg, rgba(246,217,6,1) 0%, rgba(223,152,31,1) 100%);
-  padding: 5px
+  padding: 0.2px
 }
 
 .divFooter{
